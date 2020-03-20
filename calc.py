@@ -3,6 +3,13 @@
 Created on Fri Mar 20 16:15:01 2020
 
 @author: kisku
+
+Create file called “calc.py" which has following functions
+a. function to find the factorial of a number
+b. function to find the log10 of a number
+c. function to convert degrees to radians
+d. The sin, cos and tan trigonometric functions
+
 """
 
 import math

@@ -3,6 +3,13 @@
 Created on Fri Mar 20 19:50:04 2020
 
 @author: kisku
+
+8. Implement a simple generator for Fibonacci series
+9. Write an iterator class that iterators over a sequence of values in the reverse
+direction
+10. Implement a decorator that quantifies and returns the execution time of any
+function
+
 """
 
 # Question 8

@@ -3,6 +3,11 @@
 Created on Fri Mar 20 20:02:19 2020
 
 @author: kisku
+
+Implement a child class called mathnew and parent classes as sqroot, addition,
+subtraction, multiplication and division. Use the super () function to inherit the
+parent methods.
+
 """
 import math
 

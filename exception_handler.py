@@ -3,6 +3,13 @@
 Created on Fri Mar 20 17:27:35 2020
 
 @author: kisku
+
+Write a program to handle the following exceptions
+a) KeyboardInterrupt,
+b) NameError
+c) ArithmeticError
+Note : make use of Try, except, else and finally blocks
+
 """
 
 import time
