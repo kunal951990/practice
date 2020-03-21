@@ -11,37 +11,54 @@ parent methods.
 """
 import math
 
-class sqroot:
-    def _init_(self):
+class sqroot(object):
+    def sq(self):
         number = int(input("Enter a number:"))
         square_root = 0
         square_root = math.sqrt(number)
-        print("Square Root is:",number)
+        print("Square Root is:",square_root)
 
-class addition:
-    def _init_(self):
+class addition(object):
+    def add(self):
         x = int(input("Enter first number:"))
         y = int(input("Enter second number:"))
         print(x+y)
 
-class subtraction:
-    def _init_(self):
+class subtraction(object):
+    def sub(self):
         x = int(input("Enter first number:"))
         y = int(input("Enter second number:"))
         print(x-y)
 
-class multiplication:
-    def _init_(self):
+class multiplication(object):
+    def mul(self):
         x = int(input("Enter first number:"))
         y = int(input("Enter second number:"))
         print(x*y)
         
-class division:
-    def _init_(self):
+class division(object):
+    def div(self):
         x = int(input("Enter first number:"))
         y = int(input("Enter second number:"))
         print(x/y)
 
 class mathnew(sqroot, addition, subtraction, multiplication, division):
-    def _init_(self):
-        super.__init__()
+    def __init__(self):
+        print("\n1. Square Root:")
+        print("\n2. Addition:")
+        print("\n3. Substraction:")
+        print("\n4. Multiplication:")
+        print("\n5. Division:")
+        user_input=int(input("Enter the operation needs to be performed:"))
+        if(user_input==1):
+            super().sq()
+        if(user_input==2):
+            super().add()
+        if(user_input==3):
+            super().sub()
+        if(user_input==4):
+            super().mul()
+        if(user_input==4):
+            super().div()
+            
+obj = mathnew()
